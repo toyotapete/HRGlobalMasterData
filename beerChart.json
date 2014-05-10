@@ -24,13 +24,7 @@
 {"name":"Employee Engagement","size":3938,"imports":[]},
 {"name":"External Relations","size":3938,"imports":[]},
 
-<<<<<<< HEAD
+
 {"name":"Career Ambitions":1938,"imports":["D&MP Comp Dev"]}
-=======
-{"name":"Short":1938,"imports":["P&P","Res Recruit","Res Induct","Res Terminate"]},
-{"name":"Address":1938,"imports":["LM Learning Portfolio"]},
-{"name":"Competition":1938,"imports":["P&P","Res Recruit","Res Induct"]},
-{"name":"Potential":1938,"imports":["Reward Comp Incentive","Reward Comp Severance","Reward Recognition","Employee Engagement","External Relations"]}
->>>>>>> 9f6f2492fc6231a468aa65ec2a6dd5279311aaea
 
 ]
