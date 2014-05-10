@@ -1,28 +1,6 @@
 [
 
-{"name":"P&P","size":3938,"imports":[]},
-{"name":"Res Recruit","size":3938,"imports":[]},
-{"name":"Res Induct","size":3938,"imports":[]},
-{"name":"Res Terminate","size":3938,"imports":[]},
-{"name":"D&MP Perf Mgmt","size":3938,"imports":[]},
 {"name":"D&MP Comp Dev","size":3938,"imports":[]},
-{"name":"D&MP Career Dev","size":3938,"imports":[]},
-{"name":"LM Learning Portfolio","size":3938,"imports":[]},
-{"name":"LM Learning Product","size":3938,"imports":[]},
-{"name":"LM Learning Activities","size":3938,"imports":[]},
-{"name":"LM Analyze Learning","size":3938,"imports":[]},
-{"name":"LM Concepts","size":3938,"imports":[]},
-{"name":"Reward Job","size":3938,"imports":[]},
-{"name":"Reward Mrkt Analysis","size":3938,"imports":[]},
-{"name":"Reward Comp Budget","size":3938,"imports":[]},
-{"name":"Reward Comp Salary Review","size":3938,"imports":[]},
-{"name":"Reward Comp Incentive","size":3938,"imports":[]},
-{"name":"Reward Comp Severance","size":3938,"imports":[]},
-{"name":"Reward Benefits","size":3938,"imports":[]},
-{"name":"Reward Payroll","size":3938,"imports":[]},
-{"name":"Reward Recognition","size":3938,"imports":[]},
-{"name":"Employee Engagement","size":3938,"imports":[]},
-{"name":"External Relations","size":3938,"imports":[]},
 
 
 {"name":"Career Ambitions":1938,"imports":["D&MP Comp Dev"]}
