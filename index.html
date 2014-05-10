@@ -1,177 +1,79 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
+<html>
 
-.node {
-  font: 300 11px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  fill: #bbb;
-}
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="HR Global Master Data : Hierarchical edge bundling graph showing relationship between beer styles and their ingrediends. " />
 
-.node:hover {
-  fill: #000;
-}
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-.link {
-  stroke: steelblue;
-  stroke-opacity: .4;
-  fill: none;
-  pointer-events: none;
-}
+    <title>HR Global Master Data</title>
+  </head>
 
-.node:hover,
-.node--source,
-.node--target {
-  font-weight: 700;
-}
+  <body>
 
-.node--source {
-  fill: #2ca02c;
-}
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/toyotapete/HRGlobalMasterData">View on GitHub</a>
 
-.node--target {
-  fill: #d62728;
-}
+          <h1 id="project_title">HR Global Master Data</h1>
+          <h2 id="project_tagline">Hierarchical edge bundling graph showing relationship between beer styles and their ingrediends. </h2>
 
-.link--source,
-.link--target {
-  stroke-opacity: 1;
-  stroke-width: 2px;
-}
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/toyotapete/HRGlobalMasterData/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/toyotapete/HRGlobalMasterData/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-.link--source {
-  stroke: #d62728;
-}
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-.link--target {
-  stroke: #2ca02c;
-}
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-</style>
-<body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<h2>Beer Dependancy Chart</h2>
-Hover over a beer style or ingredient to see common combinations.  Links between hops varieties show common substitutions <br>
-<script>
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
 
-var diameter = 660,
-    radius = diameter / 2,
-    innerRadius = radius - 120;
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
 
-var cluster = d3.layout.cluster()
-    .size([360, innerRadius])
-    .sort(null)
-    .value(function(d) { return d.size; });
+<h3>
+<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-var bundle = d3.layout.bundle();
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
 
-var line = d3.svg.line.radial()
-    .interpolate("bundle")
-    .tension(.85)
-    .radius(function(d) { return d.y; })
-    .angle(function(d) { return d.x / 180 * Math.PI; });
+<h3>
+<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
-var svg = d3.select("body").append("svg")
-    .attr("width", diameter)
-    .attr("height", diameter)
-  .append("g")
-    .attr("transform", "translate(" + radius + "," + radius + ")");
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-var link = svg.append("g").selectAll(".link"),
-    node = svg.append("g").selectAll(".node");
+<h3>
+<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-d3.json("beerChart.json", function(error, classes) {
-  var nodes = cluster.nodes(packageHierarchy(classes)),
-      links = packageImports(nodes);
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-  link = link
-      .data(bundle(links))
-    .enter().append("path")
-      .each(function(d) { d.source = d[0], d.target = d[d.length - 1]; })
-      .attr("class", "link")
-      .attr("d", line);
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-  node = node
-      .data(nodes.filter(function(n) { return !n.children; }))
-    .enter().append("text")
-      .attr("class", "node")
-      .attr("dx", function(d) { return d.x < 180 ? 8 : -8; })
-      .attr("dy", ".31em")
-      .attr("transform", function(d) { return "rotate(" + (d.x - 90) + ")translate(" + d.y + ")" + (d.x < 180 ? "" : "rotate(180)"); })
-      .style("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
-      .text(function(d) { return d.key; })
-      .on("mouseover", mouseovered)
-      .on("mouseout", mouseouted);
-});
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
 
-function mouseovered(d) {
-  node
-      .each(function(n) { n.target = n.source = false; });
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">HR Global Master Data maintained by <a href="https://github.com/toyotapete">toyotapete</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
 
-  link
-      .classed("link--target", function(l) { if (l.target === d) return l.source.source = true; })
-      .classed("link--source", function(l) { if (l.source === d) return l.target.target = true; })
-    .filter(function(l) { return l.target === d || l.source === d; })
-      .each(function() { this.parentNode.appendChild(this); });
+    
 
-  node
-      .classed("node--target", function(n) { return n.target; })
-      .classed("node--source", function(n) { return n.source; });
-}
-
-function mouseouted(d) {
-  link
-      .classed("link--target", false)
-      .classed("link--source", false);
-
-  node
-      .classed("node--target", false)
-      .classed("node--source", false);
-}
-
-d3.select(self.frameElement).style("height", diameter + "px");
-
-// Lazily construct the package hierarchy from class names.
-function packageHierarchy(classes) {
-  var map = {};
-
-  function find(name, data) {
-    var node = map[name], i;
-    if (!node) {
-      node = map[name] = data || {name: name, children: []};
-      if (name.length) {
-        node.parent = find(name.substring(0, i = name.lastIndexOf(".")));
-        node.parent.children.push(node);
-        node.key = name.substring(i + 1);
-      }
-    }
-    return node;
-  }
-
-  classes.forEach(function(d) {
-    find(d.name, d);
-  });
-
-  return map[""];
-}
-
-// Return a list of imports for the given array of nodes.
-function packageImports(nodes) {
-  var map = {},
-      imports = [];
-
-  // Compute a map from name to node.
-  nodes.forEach(function(d) {
-    map[d.name] = d;
-  });
-
-  // For each import, construct a link from the source to target node.
-  nodes.forEach(function(d) {
-    if (d.imports) d.imports.forEach(function(i) {
-      imports.push({source: map[d.name], target: map[i]});
-    });
-  });
-
-  return imports;
-}
-
-</script>
+  </body>
+</html>
