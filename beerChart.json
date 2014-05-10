@@ -1,22 +1,22 @@
 [
 
-{"NAME":"P&P Develop Priorities, Policies & Targets","SIZE":3938,"IMPORTS":[]},
-{"NAME":"P&P Define Plans & Projects","SIZE":3938,"IMPORTS":[]},
-{"NAME":"P&P Manage Compliance & Governance","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Process1","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Process2","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Process3","SIZE":3938,"IMPORTS":[]},
 {"NAME":"Test4","SIZE":3938,"IMPORTS":[]},
 {"NAME":"Test5","SIZE":3938,"IMPORTS":[]},
 {"NAME":"Test6","SIZE":3938,"IMPORTS":[]},
 {"NAME":"Test7","SIZE":3938,"IMPORTS":[]},
 
 
-{"NAME":"Access Open to All","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance"]},
-{"NAME":"Access Line Manager","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance"]},
-{"NAME":"Access HR","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance"]},
-{"NAME":"Access HR IPE","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance"]},
-{"NAME":"Access HR Comp","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance"]},
+{"NAME":"Open to All","SIZE":1938,"IMPORTS":["Process1","Process2","Process3"]},
+{"NAME":"Line Manager","SIZE":1938,"IMPORTS":["Process1","Process2","Process3"]},
+{"NAME":"HR","SIZE":1938,"IMPORTS":["Process1","Process2","Process3"]},
+{"NAME":"HR IPE","SIZE":1938,"IMPORTS":["Test4","Test5","Test6","Test7"]},
+{"NAME":"HR Comp","SIZE":1938,"IMPORTS":["Test4","Test5","Test6","Test7"]},
 
 
-{"name":"Data Protection No restrictions","size":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance"]},
-{"name":"Data Protection Under legislation","size":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance"]}
+{"name":"No restrictions","size":1938,"IMPORTS":["Test4","Test5","Test6","Test7"]},
+{"name":"Under legislation","size":1938,"IMPORTS":["Process1","Process2","Process3"]}
 
 ]
