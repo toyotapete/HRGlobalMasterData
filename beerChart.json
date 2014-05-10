@@ -28,6 +28,6 @@
 {"name":"Address":1938,"imports":["P&P","Res Recruit","Res Induct","Res Terminate","D&MP Perf Mgmt","D&MP Comp Dev","D&MP Career Dev","LM Learning Portfolio","LM Learning Product","LM Learning Activities","LM Analyze Learning","LM Concepts"]},
 {"name":"Competition":1938,"imports":["P&P","Res Recruit","Res Induct","Res Terminate","D&MP Perf Mgmt","D&MP Comp Dev","D&MP Career Dev","LM Learning Portfolio","LM Learning Product","LM Learning Activities","LM Analyze Learning","LM Concepts"]},
 {"name":"Potential":1938,"imports":["Reward Job","Reward Mrkt Analysis","Reward Comp Budget","Reward Comp Salary Review","Reward Comp Incentive","Reward Comp Severance","Reward Benefits","Reward Payroll","Reward Recognition","Employee Engagement","External Relations"]},
-{"name":"Responsibilities":1938,"imports":["Reward Job","Reward Mrkt Analysis","Reward Comp Budget","Reward Comp Salary Review","Reward Comp Incentive","Reward Comp Severance","Reward Benefits","Reward Payroll","Reward Recognition","Employee Engagement","External Relations"]},
+{"name":"Responsibilities":1938,"imports":["Reward Job","Reward Mrkt Analysis","Reward Comp Budget","Reward Comp Salary Review","Reward Comp Incentive","Reward Comp Severance","Reward Benefits","Reward Payroll","Reward Recognition","Employee Engagement","External Relations"]}
 
 ]
