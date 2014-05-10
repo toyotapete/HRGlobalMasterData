@@ -1,0 +1,35 @@
+[
+
+{"NAME":"P&P Develop Priorities, Policies & Targets","SIZE":3938,"IMPORTS":[]},
+{"NAME":"P&P Define Plans & Projects","SIZE":3938,"IMPORTS":[]},
+{"NAME":"P&P Manage Compliance & Governance","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Res Recruit","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Res Induct","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Res Terminate","SIZE":3938,"IMPORTS":[]},
+{"NAME":"D&MP Performance Management","SIZE":3938,"IMPORTS":[]},
+{"NAME":"D&MP Competence Development","SIZE":3938,"IMPORTS":[]},
+{"NAME":"D&MP Career Development & Succession Planning","SIZE":3938,"IMPORTS":[]},
+{"NAME":"LM Manage Learning Portfolio","SIZE":3938,"IMPORTS":[]},
+{"NAME":"LM Design and Develop Learning Product","SIZE":3938,"IMPORTS":[]},
+{"NAME":"LM Schedule and Deliver Learning Activities","SIZE":3938,"IMPORTS":[]},
+{"NAME":"LM Analyze Learning Activity","SIZE":3938,"IMPORTS":[]},
+{"NAME":"LM Develop Learning Concepts and Methods","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Reward Job Evaluation","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Reward Market Analysis","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Reward Comp Budget Guidelines","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Reward Comp Annual Salary Review","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Reward Comp Incentive Payment","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Reward Comp Severance","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Reward Manage Benefits","SIZE":3938,"IMPORTS":[]},
+{"NAME":"Reward Execute Payroll","SIZE":3938,"IMPORTS":[]},
+
+{"NAME":"Access Open to All","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance","Res Recruit","Res Induct","Res Terminate","D&MP Performance Management","D&MP Competence Development","D&MP Career Development & Succession Planning","LM Manage Learning Portfolio","LM Design and Develop Learning Product","LM Schedule and Deliver Learning Activities","LM Analyze Learning Activity","LM Develop Learning Concepts and Methods","Reward Job Evaluation","Reward Market Analysis","Reward Comp Budget Guidelines","Reward Comp Annual Salary Review","Reward Comp Incentive Payment","Reward Comp Severance","Reward Manage Benefits","Reward Execute Payroll"]},
+{"NAME":"Access Line Manager","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance","Res Recruit","Res Induct","Res Terminate","D&MP Performance Management","D&MP Competence Development","D&MP Career Development & Succession Planning","LM Manage Learning Portfolio","LM Design and Develop Learning Product","LM Schedule and Deliver Learning Activities","LM Analyze Learning Activity","LM Develop Learning Concepts and Methods","Reward Job Evaluation","Reward Market Analysis","Reward Comp Budget Guidelines","Reward Comp Annual Salary Review","Reward Comp Incentive Payment","Reward Comp Severance","Reward Manage Benefits","Reward Execute Payroll"]},
+{"NAME":"Access HR","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance","Res Recruit","Res Induct","Res Terminate","D&MP Performance Management","D&MP Competence Development","D&MP Career Development & Succession Planning","LM Manage Learning Portfolio","LM Design and Develop Learning Product","LM Schedule and Deliver Learning Activities","LM Analyze Learning Activity","LM Develop Learning Concepts and Methods","Reward Job Evaluation","Reward Market Analysis","Reward Comp Budget Guidelines","Reward Comp Annual Salary Review","Reward Comp Incentive Payment","Reward Comp Severance","Reward Manage Benefits","Reward Execute Payroll"]},
+{"NAME":"Access HR IPE","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance","Res Recruit","Res Induct","Res Terminate","D&MP Performance Management","D&MP Competence Development","D&MP Career Development & Succession Planning","LM Manage Learning Portfolio","LM Design and Develop Learning Product","LM Schedule and Deliver Learning Activities","LM Analyze Learning Activity","LM Develop Learning Concepts and Methods","Reward Job Evaluation","Reward Market Analysis","Reward Comp Budget Guidelines","Reward Comp Annual Salary Review","Reward Comp Incentive Payment","Reward Comp Severance","Reward Manage Benefits","Reward Execute Payroll"]},
+{"NAME":"Access HR Comp","SIZE":1938,"IMPORTS":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance","Res Recruit","Res Induct","Res Terminate","D&MP Performance Management","D&MP Competence Development","D&MP Career Development & Succession Planning","LM Manage Learning Portfolio","LM Design and Develop Learning Product","LM Schedule and Deliver Learning Activities","LM Analyze Learning Activity","LM Develop Learning Concepts and Methods","Reward Job Evaluation","Reward Market Analysis","Reward Comp Budget Guidelines","Reward Comp Annual Salary Review","Reward Comp Incentive Payment","Reward Comp Severance","Reward Manage Benefits","Reward Execute Payroll"]},
+
+{"name":"Data Protection No restrictions","size":1938,"imports":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance","Res Recruit","Res Induct","Res Terminate","D&MP Performance Management","D&MP Competence Development","D&MP Career Development & Succession Planning","LM Manage Learning Portfolio","LM Design and Develop Learning Product","LM Schedule and Deliver Learning Activities","LM Analyze Learning Activity","LM Develop Learning Concepts and Methods","Reward Job Evaluation","Reward Market Analysis","Reward Comp Budget Guidelines","Reward Comp Annual Salary Review","Reward Comp Incentive Payment","Reward Comp Severance","Reward Manage Benefits","Reward Execute Payroll"]},
+{"name":"Data Protection Under legislation","size":1938,"imports":["P&P Develop Priorities, Policies & Targets","P&P Define Plans & Projects","P&P Manage Compliance & Governance","Res Recruit","Res Induct","Res Terminate","D&MP Performance Management","D&MP Competence Development","D&MP Career Development & Succession Planning","LM Manage Learning Portfolio","LM Design and Develop Learning Product","LM Schedule and Deliver Learning Activities","LM Analyze Learning Activity","LM Develop Learning Concepts and Methods","Reward Job Evaluation","Reward Market Analysis","Reward Comp Budget Guidelines","Reward Comp Annual Salary Review","Reward Comp Incentive Payment","Reward Comp Severance","Reward Manage Benefits","Reward Execute Payroll"]}
+
+]
